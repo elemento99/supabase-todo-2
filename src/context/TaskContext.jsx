@@ -20,7 +20,7 @@ export const TaskContextProvider = ({ children }) => {
 
             const { data: session, error: sessionError } = await supabase.auth.getSession();
             if (sessionError || !session?.session) {
-                console.error('No se pudo obtener la sesión o el usuario no está autenticado:', sessionError);
+                console.error(' No se pudo obtener la sesión o el usuario no está autenticado:', sessionError);
                 return;
             }
             return session.session.user.id;

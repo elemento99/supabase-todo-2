@@ -2,7 +2,7 @@
   "name": "supabase-auth-crud",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://elemento99.github.io/supabase-auth-crud/",
+  "homepage": "https://elemento99.github.io/supabase-todo-2/",
   "type": "module",
   "scripts": {
     "dev": "vite",
